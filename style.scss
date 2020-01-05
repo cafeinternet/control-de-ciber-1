@@ -1,0 +1,116 @@
+$prata :'Prata',
+serif;
+body {
+    font-family: $prata;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+main section {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+section {
+    flex: 1;
+}
+
+// 1 parte
+section:nth-child(1) {
+    position: relative;
+    background: #5135f2;
+    background: url("images/controldeciber1.jpg");
+}
+
+.control-de-ciber img {
+    filter: drop-shadow(2px 2px 2px #eeff00);
+}
+
+a {
+    .logo-wrong {
+        position: relative;
+        width: 150px;
+        top: 55%;
+        left: 0%;
+        z-index: 0;
+    }
+}
+
+// 2 parte
+section:nth-child(2) {
+    background: rgb(242, 247, 32);
+    padding: 0 10px 0 10px;
+    color: #5135f2;
+    text-align: right;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.left {
+    text-align: left !important;
+}
+
+h1 {
+    padding-left: 4px;
+    padding: 0;
+    margin: 0;
+    filter: drop-shadow(2px 2px 2px rgb(122, 128, 229));
+    font-size: 40px;
+    &:hover {
+        color: rgb(122, 128, 229)
+    }
+}
+
+h2 {
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    color: rgb(82, 89, 223);
+    border-bottom: 4px dotted rgb(255, 255, 0);
+}
+
+#pic {
+    background-image: url("images/1.jpg");
+}
+
+#pic.p1 {
+    background-image: url("images/2.jpg");
+}
+
+#pic.p2 {
+    background-image: url("images/3.jpg");
+}
+
+#pic.p3 {
+    background-image: url("images/4.jpg");
+}
+
+#pic.p4 {
+    background-image: url("images/5.jpg");
+}
+
+#pic.p5 {
+    background-image: url("images/6.jpg");
+}
+
+// 3 part3
+// section:nth-child(3) {
+//     // #pic{
+//     //   width: 120px;
+//     //   height: 120px;
+//     //   border: 1px solid black;
+//     //   margin-right: 20px;
+//     //   float:left;
+//     // }
+// }

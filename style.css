@@ -1,0 +1,82 @@
+body {
+  font-family: "Prata", serif;
+  margin: 0;
+  padding: 0; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+main section {
+  margin: 0;
+  padding: 0; }
+
+main {
+  display: flex;
+  height: 100vh; }
+
+section {
+  flex: 1; }
+
+section:nth-child(1) {
+  position: relative;
+  background: #5135f2;
+  background: url("images/controldeciber1.jpg"); }
+
+.control-de-ciber img {
+  filter: drop-shadow(2px 2px 2px #eeff00); }
+
+a .logo-wrong {
+  position: relative;
+  width: 150px;
+  top: 55%;
+  left: 0%;
+  z-index: 0; }
+
+section:nth-child(2) {
+  background: #f2f720;
+  padding: 0 10px 0 10px;
+  color: #5135f2;
+  text-align: right;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+.left {
+  text-align: left !important; }
+
+h1 {
+  padding-left: 4px;
+  padding: 0;
+  margin: 0;
+  filter: drop-shadow(2px 2px 2px #7a80e5);
+  font-size: 40px; }
+  h1:hover {
+    color: #7a80e5; }
+
+h2 {
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+  color: #5259df;
+  border-bottom: 4px dotted yellow; }
+
+#pic {
+  background-image: url("images/1.jpg"); }
+
+#pic.p1 {
+  background-image: url("images/2.jpg"); }
+
+#pic.p2 {
+  background-image: url("images/3.jpg"); }
+
+#pic.p3 {
+  background-image: url("images/4.jpg"); }
+
+#pic.p4 {
+  background-image: url("images/5.jpg"); }
+
+#pic.p5 {
+  background-image: url("images/6.jpg"); }
+
+/*# sourceMappingURL=style.css.map */

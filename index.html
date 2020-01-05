@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Control de Ciber</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.gif">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151364565-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-151364565-1');
+    </script>
+
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <main>
+        <section class="control-de-ciber">
+            <img src="images/control.svg" alt=""></a>
+        </section>
+        <!-- seccion 2 -->
+        <section class="list-artist">
+            <div>
+                <a href="soledad-en-tiempo-de-netflix" rel="p1">
+                    <h1 class="left">LA SOLEDAD EN <br> TIEMPOS DE NETFLIX</h1>
+                </a>
+                <h2 class="right">- Felipe lozano (COL)</h2>
+            </div>
+            <div>
+                <a href="my-space-malakrata-malona" rel="p2">
+                    <h1 class="left">MY SPACE</h1>
+                </a>
+                <h2 class="right">- Malakrata Malona(COL)</h2>
+            </div>
+            <div>
+                <a href="technology-in-china" rel="p3">
+                    <h1 class="left">TECHNOLOGY <br>IN CHINA
+                    </h1>
+                </a>
+                <h2 class="right">- Juaniko Moreno(COL/CN)</h2>
+            </div>
+            <div>
+                <a href="buscando-a-owen" rel="p4">
+                    <h1 class="left">BUSCANDO A OWEN</h1>
+                </a>
+                <h2 class="right">- Juanita Ortega(COL)</h2>
+            </div>
+            <div>
+                <a href="robotokant-meccanohegel" rel="p5">
+                    <h1 class="left imageWrapp">De Robo-kant a <br> Meccano-Hegel</h1>
+                </a>
+                <h2 class="right">- Federico Nieto(COL)</h2>
+            </div>
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+
+        <section id="pic">
+
+            </div>
+
+        </section>
+    </main>
+    <!-- partial -->
+    <script>
+        $(".list-artist div a").hover(function() {
+            $("#pic").removeClass().addClass($(this).attr('rel'));
+        });
+    </script>
+</body>
+
+</html>
